@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Website Example</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="dropdown"> 
+        <nav class="navbar">
+            <a href="#" class="nav-logo">PRONSIT</a>
+            <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+        </nav>
+      </div>
+
+        <div class="jumbotron">
+          <h1>PRONSIT</h1>
+          <p>Media Digital Creative yang Menyediakan Berbagai Pilihan Informasi Menarik dan Unik.</p>
+          <a class="btn" href="#">Pelajari Lebih Lanjut</a>
+        </div>
+    </header>
+    
+    <div class="wrapper">
+      <main>
+        <article class="">
+          <img src="jalan.jpg" alt="Gambar Artikel">
+          <h2>Wisata Asik di Semarang</h2>
+          <p>Banyak wisata yang ada di Semarang, disini lo bakalan tahu beberapa wisata yang asik di Semarang.</p>
+          <a class="btn" href="">More</a>
+          
+        </article>
+
+        <article class="">
+          <img src="outfit.jpg" alt="Gambar Artikel">
+          <h2>Outfit yang Wajib dicoba</h2>
+          <p>Pernah gak lo bingung nyari outfit, ini ada beberapa outfit yang lo wajib coba.</p>
+          <a class="btn" href="">More</a>
+          
+        </article>
+
+        <article class="">
+          <img src="gym.jpg" alt="Gambar Artikel">
+          <h2>Olahragaa</h2>
+          <p>Pernah gak lo bingung nyari outfit, ini ada beberapa outfit yang lo wajib coba.</p>
+          <a class="btn" href="">More</a>
+          
+        </article>
+
+        <article class="">
+          <img src="laptop.jpg" alt="Gambar Artikel">
+          <h2>Kerjaan Dengan Modal Gadget</h2>
+          <p>Banyaknya pekerjaan, dan menariknya dilakukan dengan gadget.</p>        
+          <a class="btn" href="">More</a>
+        </article>
+
+        <div class="load">
+          <a class="btn" href="">More</a>
+        </div>
+
+
+      </main>
+      
+      <aside>
+        <div class="category">
+          <h2>Kategori</h2>
+          <ul>
+            <li><a class="btn" href="#">Teknologi</a></li>
+            <li><a class="btn" href="#">Olahraga</a></li>
+            <li><a class="btn" href="#">Wisata</a></li>
+            <li><a class="btn" href="#">Gaya Hidup</a></li>
+          </ul>
+        </div>
+
+        <section id="about">
+          <div class="card">
+            <h3>About Me</h3>
+            <figure>
+              <img src="lokajaya.jpeg" class="">
+              <figcaption>Profile</figcaption>
+            </figure>
+            <table>
+              <tr>
+                <th>Nama</th>
+                <td>Lokajaya Andala</td>
+              </tr>
+              <tr>
+                <th>Pendidikan terakhir</th>
+                <td>SMA</td>
+              </tr>
+              <tr>
+                <th>Profesi saat ini</th>
+                <td>Mahasiswa</td>
+              </tr>
+              <tr>
+                <th>Kota</th>
+                <td>Semarang</td>
+              </tr>
+              <tr>
+                <th>No Telp</th>
+                <td>081227194202</td>
+              </tr>
+              <tr>
+                <th>Social Media</th>
+                <td>lokajaya.andala</td>
+              </tr>
+              </table>
+            </table>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </div>
+  <div class="contact" id="contact">
+    <h3>Contact</h3>
+    <form action="submit-form.php" method="post">
+      <label for="name">Nama:</label>
+      <input type="text" id="name" name="name" required>
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="message">Pesan:</label>
+      <textarea id="message" name="message" required></textarea>
+    
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+<footer>
+  <p>&copy; 2023, Dicoding Academy - Lokajaya Andala</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
